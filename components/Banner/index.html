@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../../assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <section class="banner">
+      <div class="video-player">
+        <video id="video">
+          <source src="../../assets/video/video.mp4" type="video/mp4" />
+        </video>
+        <div
+          class="controls d-flex flex-column align-items-center justify-content-center w-100 h-100"
+        >
+          <button class="play-button control-button">
+            <img src="../../assets/img/Banner/play-video.svg" alt="play" />
+          </button>
+          <button class="sroll-down position-absolute" style="bottom: 2rem">
+            <img
+              src="../../assets/img/Banner/scroll-down.svg"
+              alt="scroll-down"
+              class="btn-scroll-down"
+            />
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      const play = `
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+          <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" />
+        </svg>
+      `;
+      const pause = `
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 9v6m4-6v6m7-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+      `;
+
+      const playButton = document.querySelector(".play-button");
+      const video = document.getElementById("video");
+      const videoContainer = document.querySelector(".video-player");
+
+      playButton.addEventListener("click", function () {
+        if (video.paused) {
+          video.play();
+          videoContainer.classList.add("playing");
+          playButton.innerHTML = pause;
+        } else {
+          video.pause();
+          videoContainer.classList.remove("playing");
+          playButton.innerHTML = play;
+        }
+      });
+    </script>
+    <script src="../../assets/js/bootstrap.bundle.js"></script>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+body,
+html {
+  overflow-x: hidden;
+}
+
+.location {
+  background: linear-gradient(180deg, #251f1e 37.35%, #3c2824 125.8%);
+}
+
+.location .title {
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 50px;
+  background: -webkit-linear-gradient(
+    90deg,
+    #a06c4e -26.38%,
+    #cf966d 9.67%,
+    #f0cfa0 52.09%,
+    #e0b488 71.7%,
+    #cf966d 96.59%,
+    #a06c4e 130.43%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text {
+  width: 373px;
+  line-height: 28px;
+}
+
+@media screen and (max-width: 576px) {
+  .title {
+    font-size: 24px !important;
+  }
+
+  .location p img {
+    width: 40px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .text {
+    font-size: 12px;
+    width: 100%;
+  }
+}

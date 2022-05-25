@@ -1,0 +1,88 @@
+body,
+html {
+  overflow-x: hidden;
+}
+
+footer {
+  height: 500px;
+  background: linear-gradient(
+    225.52deg,
+    #271a00 0.45%,
+    rgba(0, 0, 0, 0.982162) 45.25%
+  );
+}
+
+.text-yellow {
+  color: rgba(225, 161, 41, 1);
+}
+
+.bg-yellow {
+  background: rgba(225, 161, 41, 1);
+}
+
+.btn-register {
+  color: white;
+  border-top-right-radius: 18px;
+  border: none;
+  outline: none;
+}
+
+.text {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 50px;
+}
+
+footer .bottom p {
+  opacity: 0.6;
+  line-height: 17.07px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+footer .bottom p.title {
+  opacity: 1;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21.86px;
+}
+
+footer .social {
+  margin-top: 20px;
+}
+
+footer .social img {
+  margin-right: 1rem;
+}
+
+.opacity-60 {
+  opacity: 0.6;
+}
+
+footer .col-xl-auto {
+  flex: 1 1 auto;
+}
+
+@media screen and (max-width: 1024px) {
+  footer .top .text {
+    font-size: 28px;
+  }
+
+  footer {
+    height: auto;
+  }
+
+  footer .bottom p.title {
+    font-size: 14px;
+  }
+
+  footer .bottom p {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  footer .top .text {
+    font-size: 20px;
+  }
+}

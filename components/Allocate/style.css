@@ -1,0 +1,146 @@
+body,
+html {
+  overflow-x: hidden;
+}
+
+.allocate {
+  margin-top: 10%; /* when you combining into 1 page, please remove this line */
+  width: 100%;
+  background: linear-gradient(258.86deg, #cf966d 3.05%, #220602 99.4%);
+  height: 639px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 50px;
+  margin-bottom: 35px;
+}
+
+.allocate ul {
+  width: 428px;
+}
+
+.allocate li {
+  font-size: 16px;
+  margin-bottom: 1rem;
+  line-height: 19.5px;
+}
+
+.wrap-house {
+  margin-top: -30%;
+}
+
+.wrap-house-item {
+  width: fit-content;
+  position: relative;
+  margin: 0 auto;
+}
+
+.wrap-house-item.two {
+  margin-top: -85px;
+}
+
+.wrap-house-item.three {
+  margin-top: -50px;
+}
+
+.wrap-house-item.four {
+  margin-top: -50px;
+  padding-left: 26.5px;
+}
+
+.wrap-house-item.five {
+  margin-top: -5px;
+  padding-left: 2px;
+}
+
+.wrap-house-item.six {
+  margin-top: -15px;
+  padding-left: 3px;
+}
+
+.box-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fef5a3;
+  color: black !important;
+  font-weight: bold;
+  font-size: 19.67px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+  .allocate {
+    height: auto;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .allocate li {
+    font-size: 12px;
+    margin-bottom: 1rem;
+  }
+
+  .wrap-house {
+    margin-top: 0;
+  }
+
+  .wrap-house-item img {
+    width: 150px;
+  }
+
+  .wrap-house-item.two {
+    margin-top: -45px;
+  }
+
+  .wrap-house-item.three {
+    margin-top: -25px;
+  }
+
+  .wrap-house-item.four {
+    margin-top: -25px;
+    padding-left: 0;
+  }
+
+  .wrap-house-item.four img {
+    width: 176px;
+    padding-left: 13px;
+  }
+
+  .wrap-house-item.five {
+    margin-top: -3px;
+  }
+
+  .wrap-house-item.five img {
+    width: 304px;
+    padding-right: 2px;
+  }
+
+  .wrap-house-item.six {
+    margin-top: 0;
+    padding-left: 3px;
+  }
+
+  .wrap-house-item.six img {
+    width: 305px;
+    margin-top: -16px;
+    padding-right: 1px;
+  }
+
+  .box-circle {
+    width: 15px;
+    height: 15px;
+    font-size: 14px;
+  }
+}
