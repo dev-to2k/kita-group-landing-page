@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+
+    <link rel="stylesheet" href="../../assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg bg-header">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="../../assets/img/header/logo.svg" alt="logo" />
+        </a>
+        <button
+          class="navbar-toggler bg-light rounded-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul
+            class="navbar-nav mx-auto mb-2 mb-lg-0 flex-md-row justify-content-md-center"
+          >
+            <li class="nav-item">
+              <a
+                class="nav-link active d-flex flex-sm-row flex-md-column align-items-center"
+                aria-current="page"
+                href="#"
+              >
+                <img src="../../assets/img/header/icons/home.svg" alt="home" />
+                <span>Welcome</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active d-flex flex-sm-row flex-md-column align-items-center"
+                aria-current="page"
+                href="#"
+              >
+                <img
+                  src="../../assets/img/header/icons/introduce.svg"
+                  alt="home"
+                />
+                Giới thiệu
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active d-flex flex-sm-row flex-md-column align-items-center"
+                aria-current="page"
+                href="#"
+              >
+                <img
+                  src="../../assets/img/header/icons/location.svg"
+                  alt="home"
+                />
+                Vị trí
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active d-flex flex-sm-row flex-md-column align-items-center"
+                aria-current="page"
+                href="#"
+              >
+                <img
+                  src="../../assets/img/header/icons/utilities.svg"
+                  alt="home"
+                />
+                Tiện ích
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active d-flex flex-sm-row flex-md-column align-items-center"
+                aria-current="page"
+                href="#"
+              >
+                <img
+                  src="../../assets/img/header/icons/library.svg"
+                  alt="home"
+                />
+                Thư viện
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active d-flex flex-sm-row flex-md-column align-items-center"
+                aria-current="page"
+                href="#"
+              >
+                <img
+                  src="../../assets/img/header/icons/contact.svg"
+                  alt="home"
+                />
+                Liên hệ
+              </a>
+            </li>
+          </ul>
+          <div class="d-flex align-items-center justify-content-end">
+            <div class="dropdown">
+              <button
+                class="btn dropdown-toggle text-white"
+                type="button"
+                id="dropdownMenuButton1"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <img src="../../assets/img/header/icons/vi-flag.svg" alt="vi" />
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </div>
+            <a
+              href="#"
+              class="bg-contact text-decoration-none text-white px-3 py-2"
+              >Liên hệ</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Banner -->
+    <section class="banner">
+      <div class="video-player">
+        <video id="video">
+          <source src="../../assets/video/video.mp4" type="video/mp4" />
+        </video>
+        <div
+          class="controls d-flex flex-column align-items-center justify-content-center w-100 h-100"
+        >
+          <button class="play-button control-button">
+            <img src="../../assets/img/Banner/play-video.svg" alt="play" />
+          </button>
+          <button class="sroll-down position-absolute" style="bottom: 2rem">
+            <img
+              src="../../assets/img/Banner/scroll-down.svg"
+              alt="scroll-down"
+              class="btn-scroll-down"
+            />
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Introduce -->
+    <section class="introduce">
+      <div class="wrap container-fluid px-0 h-100 position-relative">
+        <div class="row">
+          <div class="left col-12 col-xxl-6 mb-5 mb-xxl-0">
+            <img src="../../assets/img/Introduce/image-1.png" alt="image-1" />
+          </div>
+          <div
+            class="right col-12 col-xxl-6 d-flex flex-column justify-content-center mb-0 mb-xxl-6 px-3 px-xxl-0"
+          >
+            <div class="d-flex justify-content-center">
+              <img src="../../assets/img/image.svg" alt="image-2" />
+              <span class="text-uppercase text mx-3">Giới thiệu</span>
+              <img src="../../assets/img/image.svg" alt="image-2" />
+            </div>
+            <p class="title text-center text-xxl-start">Stella Residence</p>
+            <p class="description mx-auto mx-xxl-0 mb-0">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
+              maiores! Alias eaque debitis similique quidem assumenda culpa
+              ullam eius? Cum impedit, odio magnam unde omnis accusamus
+              similique pariatur! Minus, odit.
+            </p>
+          </div>
+        </div>
+        <span class="title-2">Stella Residence</span>
+      </div>
+    </section>
+
+    <!-- Location -->
+    <section class="location">
+      <p
+        class="d-flex align-items-center justify-content-center text-uppercase"
+      >
+        <img src="../../assets/img/image.svg" alt="img" />
+        <span class="title mx-3">Vị trí vàng</span>
+        <img src="../../assets/img/image.svg" alt="img" />
+      </p>
+      <div class="text-white text mx-auto text-center my-5 px-3">
+        Tọa lạc giữa tâm điểm Sài Gòn phồn hoa với tầm nhìn triệu đô hướng đến
+        trung tâm.
+      </div>
+      <div class="d-flex justify-content-center px-3">
+        <img
+          src="../../assets/img/Location/location.svg"
+          class="img-fluid"
+          alt="location"
+        />
+      </div>
+    </section>
+
+    <!-- Overview -->
+    <section class="overview py-5">
+      <p
+        class="d-flex wrap-title align-items-center justify-content-center text-uppercase"
+      >
+        <img src="../../assets/img/image.svg" alt="img" />
+        <span class="title mx-3">Tổng quan</span>
+        <img src="../../assets/img/image.svg" alt="img" />
+      </p>
+      <div class="row">
+        <div class="col-12 position-relative px-3">
+          <img src="../../assets/img/Overview/image.png" alt="img" />
+          <div class="border-wrap">
+            <div
+              class="box position-relative"
+              style="
+                background-image: url('../../assets/img/Overview/image-2.svg');
+              "
+            >
+              <ul class="list-unstyled">
+                <li>
+                  <strong>Vị trí dự án:</strong> Số 927, Đường Trần Hưng Đạo,
+                  quận 5,TP.HCM
+                </li>
+                <li>
+                  <strong>Số tầng:</strong> 27 tầng + 2 hầm. <br />
+                  Căn hộ hạng sang (tầng 12 – 27)
+                </li>
+                <li>
+                  <strong>Phân bổ tầng:</strong> Tổ hợp khu văn phòng (tầng 1 –
+                  12)
+                </li>
+                <li>
+                  <strong>Loại hình căn hộ:</strong> Căn hộ điển hình 2,3,4
+                  phòng ngủ, <br />
+                  duplex, <br />
+                  penthouse
+                </li>
+                <li>
+                  <strong>Diện tích:</strong> Căn hộ điển hình: 92,2m2 - 156,1m2
+                  <br />
+                  Duplex: 189,6m2 - 248,3m2 <br />
+                  Penhouse: 343,3m2 - 350m2
+                </li>
+              </ul>
+              <img
+                src="../../assets/img/Overview/image-3.svg"
+                class="position-absolute bottom-0 end-0"
+                alt="img"
+              />
+            </div>
+          </div>
+        </div>
+        <span class="title-2">Stella Residence</span>
+      </div>
+    </section>
+
+    <!-- Allocate -->
+    <section class="allocate py-5 text-white">
+      <div class="container-fluid container-lg">
+        <div class="row">
+          <div class="col-6 col-lg-6 d-flex align-items-center">
+            <div class="wrap">
+              <img
+                src="../../assets/img/Allocate/border-top.svg"
+                alt="border-top"
+              />
+              <p class="title mt-3">Phân bổ tầng</p>
+              <ul class="list-unstyled">
+                <li><strong>Số tầng:</strong> 27 tầng + 2 hầm</li>
+                <li>
+                  <strong>Phân bổ tầng:</strong> Tổ hợp khu văn phòng (tầng 1 –
+                  12). <br />
+                  Căn hộ hạng sang (tầng 12 – 27)
+                </li>
+                <li>
+                  <strong>Loại hình căn hộ:</strong> Căn hộ điển hình 2,3,4
+                  phòng ngủ, duplex,penthouse
+                </li>
+                <li>
+                  <strong>Diện tích:</strong> Căn hộ điển hình: 92,2m2 - 156,1m2
+                  <br />
+                  Duplex: 189,6m2 - 248,3m2 <br />
+                  Penthouse: 343,3m2 – 350m2
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-6 col-lg-6">
+            <div class="wrap-house">
+              <div class="wrap-house-item one">
+                <img src="../../assets/img/Allocate/house-1.svg" alt="img" />
+                <div class="box-circle">1</div>
+              </div>
+              <div class="wrap-house-item two">
+                <img src="../../assets/img/Allocate/house-2.svg" alt="img" />
+                <div class="box-circle">2</div>
+              </div>
+              <div class="wrap-house-item three">
+                <img src="../../assets/img/Allocate/house-3.svg" alt="img" />
+                <div class="box-circle">3</div>
+              </div>
+              <div class="wrap-house-item four">
+                <img src="../../assets/img/Allocate/house-4.svg" alt="img" />
+                <div class="box-circle">4</div>
+              </div>
+              <div class="wrap-house-item five">
+                <img src="../../assets/img/Allocate/house-5.svg" alt="img" />
+                <div class="box-circle">5</div>
+              </div>
+              <div class="wrap-house-item six">
+                <img src="../../assets/img/Allocate/house-6.svg" alt="img" />
+                <div class="box-circle">6</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Utilities -->
+    <section class="utilities py-5">
+      <div class="container">
+        <p
+          class="d-flex align-items-center justify-content-center text-uppercase"
+        >
+          <img src="../../assets/img/image.svg" alt="img" />
+          <span class="title mx-3">Tiện ích</span>
+          <img src="../../assets/img/image.svg" alt="img" />
+        </p>
+        <div class="text-white text mx-auto text-center my-5 px-3">
+          Nâng tầm giá trị sống với chuỗi tiện ích sang trọng, đẳng cấp và cuộc
+          sống tiện nghi trong tầm tay:
+        </div>
+        <div class="row px-3">
+          <div class="left col col-lg-6 px-0">
+            <div class="top d-flex">
+              <div class="inner-left text-white">
+                <span class="text-uppercase">Nội khu</span>
+              </div>
+              <div class="inner-right text-white">
+                <span class="text-uppercase">Ngoại khu</span>
+              </div>
+            </div>
+            <div class="wrap-list">
+              <ul>
+                <li>Phòng Gym</li>
+                <li>Phòng thay đồ</li>
+                <li>Cigar Lounge</li>
+                <li>Golf course</li>
+                <li>Khu vui chơi trẻ em</li>
+                <li>Thư viện</li>
+                <li>Hồ bơi</li>
+                <li>Khu đa năng</li>
+                <li>Phòng tiếp khách</li>
+              </ul>
+            </div>
+          </div>
+          <div class="right col col-lg-6 px-0">
+            <img src="../../assets/img/Utilities/image.png" alt="img" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Library -->
+    <section class="library">
+      <div class="container">
+        <p
+          class="d-flex wrap-title align-items-center justify-content-center text-uppercase"
+        >
+          <img src="../../assets/img/image.svg" alt="img" />
+          <span class="title mx-3">Thư viện</span>
+          <img src="../../assets/img/image.svg" alt="img" />
+        </p>
+        <ul class="d-flex list-unstyled justify-content-center">
+          <li>Hình ảnh</li>
+          <li>Video</li>
+        </ul>
+      </div>
+      <div
+        class="slider bg-white d-flex justify-content-between overflow-hidden"
+      >
+        <div class="slide-item">
+          <img src="../../assets/img/Library/image-1.png" alt="img" />
+        </div>
+        <div class="slide-item position-relative">
+          <img src="../../assets/img/Library/image-2.png" alt="img" />
+          <div
+            class="container pagination position-absolute bottom-0 justify-content-end px-0"
+          >
+            <div class="d-flex">
+              <div class="btn-prev">
+                <img src="../../assets/img/Library/arrow-prev.svg" alt="prev" />
+              </div>
+              <div class="btn-next">
+                <img src="../../assets/img/Library/arrow-next.svg" alt="prev" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide-item">
+          <img src="../../assets/img/Library/image-3.png" alt="img" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container py-5">
+        <div class="top row mb-5">
+          <div class="col-6">
+            <p class="text-white text">
+              Thêm thông tin về
+              <span class="text-yellow">Stella Residence</span>
+            </p>
+          </div>
+          <div class="col-6">
+            <button
+              class="btn-register ms-auto d-flex justify-content-center align-items-center py-2 px-3 bg-yellow"
+            >
+              <span class="me-2">Đăng ký</span>
+              <img src="../../assets/img/Footer/arrow.svg" alt="arrow" />
+            </button>
+          </div>
+        </div>
+        <hr class="border-white" />
+        <div class="bottom row my-5 align-items-start">
+          <div
+            class="col col-6 col-xl-auto mb-5 mb-xl-0 text-start text-xl-center"
+          >
+            <img src="../../assets/img/header/logo.svg" alt="logo" />
+          </div>
+          <div class="col col-6 col-xl-auto mb-5 mb-xl-0">
+            <p class="text-white text-uppercase title">Liên hệ</p>
+            <p class="mb-0 text-white">P: (+84) 774641111</p>
+            <p class="mb-0 text-white">E: stellaresidence@gmail.com</p>
+          </div>
+          <div class="col col-6 col-xl-auto mb-5 mb-xl-0">
+            <p class="text-white text-uppercase title">Văn phòng</p>
+            <p class="mb-0 text-white">
+              927 Đ. Trần Hưng Đạo, Phường 1, <br />
+              Quận 5, Thành phố Hồ Chí Minh
+            </p>
+          </div>
+          <div class="col col-6 col-xl-auto mb-5 mb-xl-0">
+            <p class="text-white text-uppercase title">Địa chỉ dự án</p>
+            <p class="mb-0 text-white">
+              927 Đ. Trần Hưng Đạo, Phường 1, <br />
+              Quận 5, Thành phố Hồ Chí Minh
+            </p>
+          </div>
+          <div
+            class="col col-xl-auto d-flex align-items-center justify-content-center social"
+          >
+            <a href="#">
+              <img
+                src="../../assets/img/Footer/icons/facebook.svg"
+                alt="facebook"
+              />
+            </a>
+            <a href="#">
+              <img
+                src="../../assets/img/Footer/icons/twitter.svg"
+                alt="twitter"
+              />
+            </a>
+            <a href="#">
+              <img
+                src="../../assets/img/Footer/icons/instagram.svg"
+                alt="instagram"
+              />
+            </a>
+          </div>
+        </div>
+        <hr class="border-white" />
+        <p class="text-center text-white opacity-60 mt-5">
+          © Copyright 2022 Stella Residence. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="../../assets/js/bootstrap.bundle.js"></script>
+  </body>
+</html>

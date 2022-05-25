@@ -4,23 +4,18 @@
   box-sizing: border-box;
 }
 
-:root {
-  --bg-header: #271a00;
-  --bg-button-header: #e1a129;
-}
-
 body,
 html {
   overflow-x: auto;
 }
 
 .bg-header {
-  background-color: var(--bg-header);
+  background-color: #271a00;
   background-image: linear-gradient(var(--bg-header), rgba(0, 0, 0, 0.9822));
 }
 
 .bg-contact {
-  background-color: var(--bg-button-header);
+  background-color: #e1a129;
 }
 
 .nav-item {
