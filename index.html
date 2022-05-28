@@ -137,11 +137,11 @@
     </nav>
 
     <!-- Banner -->
-    <section class="banner">
+    <section
+      class="banner"
+      style="background-image: url('./assets/img/Banner/background.png')"
+    >
       <div class="video-player">
-        <video id="video">
-          <source src="../../assets/video/video.mp4" type="video/mp4" />
-        </video>
         <div
           class="controls d-flex flex-column align-items-center justify-content-center w-100 h-100"
         >
@@ -270,7 +270,7 @@
     <section class="allocate py-5 text-white">
       <div class="container-fluid container-lg">
         <div class="row">
-          <div class="col-6 col-lg-6 d-flex align-items-center">
+          <div class="col-12 col-lg-6 d-flex align-items-center">
             <div class="wrap">
               <img
                 src="../../assets/img/Allocate/border-top.svg"
@@ -297,31 +297,28 @@
               </ul>
             </div>
           </div>
-          <div class="col-6 col-lg-6">
+          <div class="col-12 col-lg-6">
             <div class="wrap-house">
-              <div class="wrap-house-item one">
-                <img src="../../assets/img/Allocate/house-1.svg" alt="img" />
-                <div class="box-circle">1</div>
-              </div>
-              <div class="wrap-house-item two">
-                <img src="../../assets/img/Allocate/house-2.svg" alt="img" />
-                <div class="box-circle">2</div>
-              </div>
-              <div class="wrap-house-item three">
-                <img src="../../assets/img/Allocate/house-3.svg" alt="img" />
-                <div class="box-circle">3</div>
-              </div>
-              <div class="wrap-house-item four">
-                <img src="../../assets/img/Allocate/house-4.svg" alt="img" />
-                <div class="box-circle">4</div>
-              </div>
-              <div class="wrap-house-item five">
-                <img src="../../assets/img/Allocate/house-5.svg" alt="img" />
-                <div class="box-circle">5</div>
-              </div>
-              <div class="wrap-house-item six">
-                <img src="../../assets/img/Allocate/house-6.svg" alt="img" />
-                <div class="box-circle">6</div>
+              <img src="./assets/img/Allocate/image.png" alt="img" />
+              <div class="wrap-house-item">
+                <div class="one mt-4 mt-xl-5">
+                  <div class="box-circle">1</div>
+                </div>
+                <div class="two">
+                  <div class="box-circle">2</div>
+                </div>
+                <div class="three">
+                  <div class="box-circle">3</div>
+                </div>
+                <div class="four">
+                  <div class="box-circle">4</div>
+                </div>
+                <div class="five">
+                  <div class="box-circle">5</div>
+                </div>
+                <div class="six mb-1">
+                  <div class="box-circle">6</div>
+                </div>
               </div>
             </div>
           </div>
@@ -330,7 +327,7 @@
     </section>
 
     <!-- Utilities -->
-    <section class="utilities py-5">
+    <section class="utilities py-5 pt-xl-5">
       <div class="container">
         <p
           class="d-flex align-items-center justify-content-center text-uppercase"
@@ -344,9 +341,9 @@
           sống tiện nghi trong tầm tay:
         </div>
         <div class="row px-3">
-          <div class="left col col-lg-6 px-0">
+          <div class="left col-12 col-lg-6 px-0">
             <div class="top d-flex">
-              <div class="inner-left text-white">
+              <div class="inner-left text-white active">
                 <span class="text-uppercase">Nội khu</span>
               </div>
               <div class="inner-right text-white">
@@ -367,7 +364,7 @@
               </ul>
             </div>
           </div>
-          <div class="right col col-lg-6 px-0">
+          <div class="right col-12 col-lg-6 px-0">
             <img src="../../assets/img/Utilities/image.png" alt="img" />
           </div>
         </div>
@@ -385,7 +382,7 @@
           <img src="../../assets/img/image.svg" alt="img" />
         </p>
         <ul class="d-flex list-unstyled justify-content-center">
-          <li>Hình ảnh</li>
+          <li class="me-4 active">Hình ảnh</li>
           <li>Video</li>
         </ul>
       </div>
@@ -418,15 +415,15 @@
 
     <!-- Footer -->
     <footer>
-      <div class="container py-5">
-        <div class="top row mb-5">
+      <div class="container pt-5">
+        <div class="top row mb-5 align-items-center">
           <div class="col-6">
             <p class="text-white text">
               Thêm thông tin về
               <span class="text-yellow">Stella Residence</span>
             </p>
           </div>
-          <div class="col-6">
+          <div class="col-6 mb-3 mb-xl-0">
             <button
               class="btn-register ms-auto d-flex justify-content-center align-items-center py-2 px-3 bg-yellow"
             >
